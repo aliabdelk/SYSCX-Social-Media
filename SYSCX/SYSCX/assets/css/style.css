@@ -1,0 +1,270 @@
+/* general text formatting */
+h1,
+h2,
+h3,
+nav,
+footer,
+div {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+}
+
+
+/* headers and footer */
+
+header, footer {
+    color: white;
+    background-color: #4b4b4b;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 1%;
+}
+
+header h1 {
+    padding: 8px 0 0 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 16px;
+    padding: 0 0 0 20px;
+}
+
+
+/* Form style */
+
+legend {
+    margin: 0;
+    padding: 5px 0px;
+    height: 27.2px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 21.6px;
+    color: #ffffff;
+    background-color: #808080;
+}
+
+legend span {
+    display: inline;
+    padding: 0px 0px 0px 15px;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    background-color: #e8e8e8;
+    width: 100%;
+    border: none;
+}
+
+form p {
+    margin-top: 8px;
+    margin-left: 16px;
+    padding: 0px 0px 0px 5px;
+}
+
+form input, select {
+    margin: 5px;
+}
+
+form input[type="submit"], input[type="reset"] {
+    margin: 10px 10px 10px 20px;
+    font-size: medium;
+    text-transform: capitalize;
+}
+
+form input[type="text"], input[type="email"], input[type="number"], input[type="password"], select {
+    margin: 5px;
+    padding: 5px;
+    font-size: small;
+    width: 80%;
+}
+form input[type="email"], input[type="password"], select {
+    width: 50%;
+}
+form textarea {
+    vertical-align: text-top;
+}
+
+
+/* Navigation Bar styling */
+
+td.navbar {
+    width: 12%;
+    padding-left: 3%;
+    overflow: hidden;
+    height: 100%;
+    position: fixed;
+}
+
+td.navbar div {
+    background-color:#e8e8e8;
+    height: 100%;
+}
+
+td.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+td.navbar li {
+    text-align: center;
+    font-weight: bold;
+    background-color:#e8e8e8;
+    color: black;
+}
+
+td.navbar a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+td.navbar a#nav-sel {
+    background-color: #8d8d8d;
+    color: white;
+}
+
+td.navbar a:hover {
+    background-color: #8d8d8d;
+    color: white;
+}
+
+
+/* User Profile styling */
+
+td.user-profile {
+    width: 12%;
+    padding-right: 3%;
+    text-align: center;
+    height: 100%;
+    position: fixed;
+}
+
+td.user-profile div {
+    background-color: #e8e8e8;
+    height: 100%;
+}
+
+td.user-profile p {
+    color: #4b4b4b;
+    font-weight: bold;
+    overflow-wrap: break-word;
+    padding: 10px;
+}
+
+td.user-profile img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 40%;
+}
+
+
+/* General Table styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+tr td {
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+/* Main Section styling */
+
+td.main {
+    background-color: white;
+}
+
+section {
+    width: 100%;
+}
+
+section h2 {
+    font-size: 21.6px;
+    background-color: #919191;
+    height: 27.2px;
+    color: #f0f0f0;
+    border: solid 1px black;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+}
+
+td.main {
+    width: 70%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+td.main img {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+/* New Post styling */
+
+td.main textarea {
+    width: 50%;
+    height: 100px;
+}
+
+details {
+    border-width: thin;
+    border-style: solid;
+    border-color: #4b4b4b;
+    padding: 5px;
+}
+
+details summary {
+    font-weight: bold;
+}
+
+details p {
+    margin: 20px;
+    color:#605f5f;
+}
+
+table.posts td {
+    padding-top: 15px;
+}
+
+td.profile-label td {
+    width : 20%;
+}
+
+table.users-list td tr th {
+    border-style: solid;
+    border-width: medium;
+}
